@@ -1,0 +1,88 @@
+.pokemon-card {
+  position: relative;
+  width: 200px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 6px solid gold;
+  border-radius: 10px;
+  padding-top: 20px;
+  text-decoration-color: black;
+}
+
+.pokemon-card .type-image {
+  width: 20px; 
+  height: 20px;
+  margin-right: 5px;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-card h2 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.pokemon-card .sprite-image {
+  width: 125px;
+  height: 125px;
+  border: 3px solid black;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #faf0e6;
+}
+
+.pokemon-card .pokemon-moves {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 5px;
+}
+
+.pokemon-card .pokemon-ability {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.65em;
+}
+
+.card-top-right {
+  position: absolute;
+  top: 5px; 
+  right: 10px; 
+  display: flex;
+  align-items: center;
+}
+
+.pokemon-hp {
+  font-size: 14px;
+  color: red;
+}
+
+.height-and-weight {
+  display: flex;
+  justify-content: space-around; 
+  font-size: 0.8em;
+}
+
+.height-and-weight p {
+  margin: 0; 
+  padding: 0;
+}
+
+.pokemon-card-link {
+  text-decoration: none;
+}
+
+

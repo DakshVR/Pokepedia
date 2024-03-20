@@ -1,0 +1,63 @@
+button,
+input {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.message {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 15px;
+}
+
+.pokeball {
+    width: 60px; 
+    height: 60px; 
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.clear {
+    width: 60px; 
+    height: 60px;  
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search form{
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background-color: darkgrey;
+    font-size: 25px;
+    padding: 5px 10px;
+    border: 5px solid gold;
+    margin-right: 3px;
+}
+
+.search button {
+    display: flex;
+    align-items: center;
+    border: 5px solid gold;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.search button:hover {
+    background-color: gold;
+}
+
+.search button span {
+    margin-left: 10px; /* Adjust as needed for spacing between image and text */
+}

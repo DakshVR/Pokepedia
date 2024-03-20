@@ -1,0 +1,127 @@
+.home {
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .featured-pokemon {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .pokemon-feature {
+    text-align: center;
+  }
+  
+  .pokemon-feature h2 {
+    margin: 10px 0;
+  }
+  
+  .pokemon-feature img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
+  
+  .details-link {
+    display: inline-block;
+    margin-top: 10px auto;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    width: fit-content;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    border: 3px solid gold;
+  
+  }
+  
+  .details-link:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .welcome-card .pokemon-card {
+    min-width: 450px;
+    min-height: 150px;
+    max-width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+  
+  .welcome-card .pokemon-card p {
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .introduction-section {
+    padding: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: beige;
+    width: 100%; 
+    border: 6px solid gold;
+   } 
+
+  
+  .introduction-section ul {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0; 
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .introduction-section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-basis: auto;
+    max-width: calc(50% - 20px);
+    font-size: 19px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .introduction-section ul li img {
+    margin-right: 10px;
+    width: 140px;
+    height: 140px;
+  }
+
+  .introduction-section h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+  }
+
+  .introduction-section p {
+    font-size: 19px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .pokemon-card h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 21px;
+  }
