@@ -19,6 +19,7 @@ Welcome to Pokepedia, your ultimate destination for all things Pokémon! This we
 - JavaScript: A programming language for interactivity and logic implementation.
 - CSS: Cascading Style Sheets for styling the web application.
 - Tanstack Query: A data-fetching library for JavaScript and TypeScript applications.
+- Pokémon API: Utilized to fetch data about Pokémon species, moves, abilities, and more, enhancing the content and functionality of the application.
 
 # React + Vite
 
