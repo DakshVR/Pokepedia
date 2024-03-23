@@ -1,127 +1,186 @@
-.home {
-    text-align: center;
-  }
-  .content {
-    display: flex;
-    /* justify-content: flex-end; */
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .featured-pokemon {
-    text-align: center;
-    width: 50%;
-  }
-  
-  .pokemon-feature {
-    text-align: center;
-  }
-  
-  .pokemon-feature h2 {
-    margin: 10px 0;
-  }
-  
-  .pokemon-feature img {
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin: auto;
-  }
-  
-  .details-link {
-    display: inline-block;
-    margin-top: 10px auto;
-    padding: 12px;
-    color: black;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-    width: fit-content;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
-    border: 3px solid gold;
-  
-  }
-  
-  .details-link:hover {
-    background-color: #0056b3;
-    
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .welcome-card .pokemon-card {
-    min-width: 450px;
-    min-height: 150px;
-    max-width: 80%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    word-wrap: break-word;
-  }
-  
-  .welcome-card .pokemon-card p {
-    padding: 10px;
-    font-family: 'Press Start 2P', cursive;
-  }
-  
-  .introduction-section {
-    padding: 35px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color: beige;
-    width: 100%; 
-    border: 6px solid gold;
-   } 
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 
-  
-  .introduction-section ul {
-    display: flex;
-    flex-wrap: wrap; 
-    padding: 0; 
-    list-style-type: none;
-    justify-content: center;
-    gap: 20px; 
+body {
+  margin: 0;
+  font-family: "Exo", sans-serif;
+  background-color: slategray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  background-color: slategray;
+}
+
+aside {
+  flex: 0 0 200px;
+  background-color: slategray;
+  padding: 10px;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.top-nav {
+  display: inline-flex;
+  padding: 12px;
+  border-style: solid;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #ffcb05;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.featured-pokemon {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.pokemon-feature img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  width: fit-content;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  border: 3px solid gold;
+}
+
+.details-link:hover {
+  background-color: #0056b3;
+}
+
+.welcome-card .pokemon-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.welcome-card .pokemon-card p {
+  padding: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.introduction-section {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: beige;
+  width: 100%;
+  border: 6px solid gold;
+  text-align: center;
+}
+
+.introduction-section h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.introduction-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.introduction-section ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction-section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.introduction-section ul li img {
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.introduction-section ul li h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
+
+.introduction-section ul li p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.pokemon-card h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 10px;
   }
-  
-  .introduction-section ul li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    flex-basis: auto;
-    max-width: calc(50% - 20px);
-    font-size: 19px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+
+  .welcome-card .pokemon-card,
+  .featured-pokemon {
+    max-width: 100%;
   }
-  
+
   .introduction-section ul li img {
-    margin-right: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
   }
 
   .introduction-section h2 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .introduction-section p {
-    font-size: 19px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-size: 14px;
   }
 
   .pokemon-card h1 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 21px;
+    font-size: 18px;
   }
+}

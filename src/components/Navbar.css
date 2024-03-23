@@ -10,19 +10,31 @@ nav ul li a {
   align-items: center;
   text-decoration: none;
   color: #000;
-  font-size: 23px;
-  padding: 5px 10px;
-  border-radius: 10px; 
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
   color: white;
+  background-color: #555;
 }
 
 nav ul li a img {
-  margin-right: 8px; 
-  width: 45px; 
-  height: 45px; 
+  margin-right: 8px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
 }
